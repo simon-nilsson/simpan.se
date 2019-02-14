@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Simpans Binary Data Convertion</title>
+    <title>Simpans Binary Convertion Tool</title>
     <link href="style.css" rel="stylesheet" />
 </head>
 
@@ -15,33 +15,36 @@
     <p>&nbsp;
 
     <form>
-        Enter binary value: <input type="text" size="20" id="inputvalue" onkeydown="if (event.keyCode == 13)  document.getElementById('binbutton').click()" />
+        Enter binary value: <input type="text" size="20" id="binvalue" onkeydown="if (event.keyCode == 13)  document.getElementById('binbutton').click()" />
         <input type="text" style="display: none;" />
-        <button type="button" id="binbutton">Submit</button>
+        <button type="button" id="binbutton">Convert</button>
     </form>
 
     <form>
-        Enter decimal value: <input type="text" size="20" id="inputvalue" onkeydown="if (event.keyCode == 13)  document.getElementById('decbutton').click()" />
+        Enter decimal value: <input type="text" size="20" id="decvalue" onkeydown="if (event.keyCode == 13)  document.getElementById('decbutton').click()" />
         <input type="text" style="display: none;" />
-        <button type="button" id="decbutton">Submit</button>
+        <button type="button" id="decbutton">Convert</button>
     </form>
 
     <form>
-        Enter hex value: <input type="text" size="20" id="inputvalue" onkeydown="if (event.keyCode == 13)  document.getElementById('hexbutton').click()" />
+        Enter hex value: <input type="text" size="20" id="hexvalue" onkeydown="if (event.keyCode == 13)  document.getElementById('hexbutton').click()" />
         <input type="text" style="display: none;" />
-        <button type="button" id="hexbutton">Submit</button>
+        <button type="button" id="  hexbutton">Convert</button>
     </form>
 
     <form>
-        Enter octal value: <input type="text" size="20" id="inputvalue" onkeydown="if (event.keyCode == 13)  document.getElementById('octbutton').click()" />
+        Enter octal value: <input type="text" size="20" id="octvalue" onkeydown="if (event.keyCode == 13)  document.getElementById('octbutton').click()" />
         <input type="text" style="display: none;" />
-        <button type="button" id="octbutton">Submit</button>
+        <button type="button" id="octbutton">Convert</button>
     </form>
 
-    <div id="returndata"></div>
-    </center>
+    <div id="binreturn"></div>
+    <div id="decreturn"></div>
+    <div id="hexreturn"></div>
+    <div id="octreturn"></div>
+
     <script src="js/converter.js"></script>
+
+</center>
 </body>
-
 </html>
-
