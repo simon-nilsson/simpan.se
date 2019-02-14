@@ -1,4 +1,5 @@
-# simpan.se
-Containing projects on www.simpan.se
+# wwww.simpan.se/
 
-binary-conversion: JavaScript project for converting data values.
+<b>[Binary Conversion](www.simpan.se/bianry-conversion)</b> - JavaScript project for converting data values.  
+  
+<b>[GeoMan Returns](www.simpan.se/geoman-returns)</b> - HTML5 game designed for geocaching, a geo treasure-hunt experience.
